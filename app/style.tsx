@@ -1,1 +1,1 @@
-export const pageMargin = "mx-40"
+export const pageMargin = "mx-8 md:mx-40"

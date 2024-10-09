@@ -58,7 +58,9 @@ export default function Home() {
         <SectionTitle title="Education"/>
         <SectionHeader left={resumeContent.education[0].school} right={resumeContent.education[0].dates} />
         <SectionSubheader left={resumeContent.education[0].degree} right={`GPA: ${resumeContent.education[0].gpa.toString()}`} />
+        
         <LineBreak/>
+
         <SectionHeader left={resumeContent.education[1].school} right={resumeContent.education[1].dates} />
         <SectionSubheader left={resumeContent.education[1].degree} right={`GPA: ${resumeContent.education[1].gpa.toString()}`} />
 
